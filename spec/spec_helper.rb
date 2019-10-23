@@ -1,4 +1,4 @@
-require 'bundler'
+include_chain_clauses_in_custom_matcher_descriptions require 'bundler'
 Bundler.require
 require 'yaml'
 CREATED_FILES = Dir.glob(File.join(File.dirname(__FILE__), '..', 'lib', '*.rb'))
